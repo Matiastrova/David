@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    Box-sizing: border-Box;
+}
+body{
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header{
+background-image: url(IMG/backgroun\ real.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 1000px;
+width: 204vh;
+align-items: center;
+display: flex;
+position: relative;
+}
+.menu{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 800;  
+}
+
+.menu .navbar ul li{
+   position: relative;
+   float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    font-weight: 600;
+    color:gray;  
+ }
+    
+ .menu .navbar ul li a:hover {
+    color: black;
+    background: white;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt{
+    text-align: center;
+}
+
+.header-txt h1 {
+    font-size: 85px;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 1040px;
+}
+
+.header-txt p{
+    color: gray;
+    font-size: 16px;
+    padding: 0px 250px;
+    margin-bottom: 5px;
+    margin-left: 1050px;
+}
+
+.header-txt > b{
+    color: gray;
+    margin-left: 1050px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.btn-1{
+        display: inline-block;
+        padding: 12px 45px;
+        border: 1px solid gray;
+        color: gray;
+        font-size: 16px;
+        text-transform: uppercase ;
+        font-weight: 600;
+        margin-left: 1040px;
+}
+
+.btn-1:hover{
+    color:black;
+    background-color: white ;
+}
+
+
+.general-container{
+    background-color: rgb(176, 177, 176);
+    text-align: center;
+    padding: 10px;
+    min-height: 100vh;;
+    width: 204vh;
+}
+h2{
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    color: gray;
+    background-color: black;
+}
+
+.general-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.general-1{
+   width: 16%;
+   height: 680px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   position: relative;
+   cursor: pointer;
+   flex-wrap: wrap;
+   overflow: hidden;
+   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+}
+.general-1 >img{
+    width: 100%;
+    height: 90%;
+    display: block;
+    object-fit: cover;
+   
+}
+
+.general-1 >img:hover{
+    transition: 5s;
+    width: 150%;
+}
+
+.general-1 > h3{
+    color: gray;
+    background-color: black;
+    padding: 23px;
+}
+
+.acercademi-1{
+      height: 850px;
+       width: 205vh;
+   
+}
+.acercademi-1-container{
+
+    background-color: gray;
+    height: 100%;;
+    width: 100%;
+}
+
+.informacion > h1{
+    width: 175px;
+    box-shadow: 0 0 6px 0 rgb(214, 209, 209);
+    padding: 10px;
+    margin-left: 1050px;
+    margin-top: -600px;
+    color:  white
+}
+
+.informacion > p{
+    padding: 10px;
+    width: 1000px;
+    height: auto;
+    text-align: left;
+    margin-left: 650px;
+    color:  white;
+    box-shadow: 0 0 6px 0 rgb(214, 209, 209);
+}
+
+.informacion > img{
+    margin-right: 1100px;
+    position: relative;
+    width: auto;
+    height: 760px;
+    left: 0;
+    position: relative;
+   cursor: pointer;
+   flex-wrap: wrap;
+   overflow: hidden;
+   box-shadow: 0 0 6px 0 rgb(214, 209, 209);
+}
+
+
+.info-content{
+    background-color: gray;
+    height: 650px;
+    width: 205vh;
+}
+
+.testi-1{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testi-1 .testi-txt{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    
+}
+
+.testi-1 .testi-txt > img{
+    margin-left: 15px;
+    text-align: center;
+    border-color: white;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: 3px solid white;
+    display: block;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .6);
+    border-radius: 70%;
+}
+.testi-1 .testi-txt > h3{
+    width: 250px;
+    color: gray;
+    padding: 5px 5px;
+
+}
+footer{
+    background-color: black;
+    padding: 60px;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo > h4{
+    color: gray;
+    border-bottom: 3px solid gray;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.content-foo > p{
+    color: gray;
+    padding-bottom: 10px;
+}
+
